@@ -22,17 +22,27 @@ npm install
 
 ```
 coding-dojo/
-├── src/                    # Source files with function stubs
-│   ├── task01_evenOrOdd.ts
-│   ├── task02_sumArray.ts
-│   └── ...
-├── tests/                  # Test files
+├── src/                           # Source files organized by difficulty
+│   ├── 1_easy/                    # 🟢 Easy tasks (1-6)
+│   │   ├── task01_evenOrOdd.ts
+│   │   ├── task02_sumArray.ts
+│   │   └── ...
+│   ├── 2_medium/                  # 🟠 Medium tasks (7-17)
+│   │   ├── task07_fibonacci.ts
+│   │   ├── task08_isPrime.ts
+│   │   └── ...
+│   └── 3_hard/                    # 🔴 Hard tasks (18-20)
+│       ├── task18_anagrams.ts
+│       ├── task19_romanToArabic.ts
+│       └── ...
+├── tests/                         # Test files
 │   ├── task01_evenOrOdd.test.ts
 │   ├── task02_sumArray.test.ts
-│   └── ...
+│   └── ... (all 20 test files)
 ├── package.json
 ├── tsconfig.json
-└── jest.config.js
+├── jest.config.js
+└── .gitignore
 ```
 
 ## 🧪 Running Tests
