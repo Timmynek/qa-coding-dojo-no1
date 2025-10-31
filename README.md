@@ -1,4 +1,4 @@
-# 🥋 Coding Dojo - TypeScript Edition
+# 🥋 Coding Dojo
 
 Welcome to the Coding Dojo! This repository contains 20 programming challenges organized by difficulty level to help you practice your TypeScript skills.
 
