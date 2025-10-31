@@ -1,0 +1,42 @@
+{
+  "name": "coding-dojo",
+  "version": "1.0.0",
+  "description": "Coding Dojo TypeScript Tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:task": "jest --testPathPattern",
+    "test:01": "jest task01_evenOrOdd",
+    "test:02": "jest task02_sumArray",
+    "test:03": "jest task03_reverseString",
+    "test:04": "jest task04_countChar",
+    "test:05": "jest task05_maxNumber",
+    "test:06": "jest task06_sortArray",
+    "test:07": "jest task07_fibonacci",
+    "test:08": "jest task08_isPrime",
+    "test:09": "jest task09_factorial",
+    "test:10": "jest task10_fizzBuzz",
+    "test:11": "jest task11_palindrome",
+    "test:12": "jest task12_removeDuplicates",
+    "test:13": "jest task13_validateBrackets",
+    "test:14": "jest task14_mergeArrays",
+    "test:15": "jest task15_secondLargest",
+    "test:16": "jest task16_wordCount",
+    "test:17": "jest task17_reverseArray",
+    "test:18": "jest task18_anagrams",
+    "test:19": "jest task19_romanToArabic",
+    "test:20": "jest task20_apiSchemaValidation",
+    "build": "tsc"
+  },
+  "keywords": ["typescript", "jest", "coding-dojo"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0"
+  }
+}
